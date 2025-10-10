@@ -102,3 +102,9 @@ const output_num = test_nums2.reduce((result, current) => {
 });
 
 console.log(output_num);
+
+// return largest number of an array using reduce method
+const largest_num = test_nums2.reduce((prev, curr) => {
+    return prev > curr ? prev : curr;
+});
+console.log(largest_num);
