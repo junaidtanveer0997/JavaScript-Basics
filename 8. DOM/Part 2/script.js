@@ -36,7 +36,7 @@ div.after(newBtn);             // adds after the node (outside)
 
 // add a new heading
 let newHeading = document.createElement("h1");
-newHeading.innerHTML = "<i>Hi, I am new!</i>";
+newHeading.innerHTML = "<i> Hi, I am new!</i>";
 
 document.querySelector("body").prepend(newHeading);
 
