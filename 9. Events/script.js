@@ -85,10 +85,15 @@ let currMode = "light";
 modeBtn.addEventListener("click", () => {
     if (currMode === "light") {
         currMode = "dark";
-        document.querySelector("body").style.backgroundColor = "black";
+        //document.querySelector("body").style.backgroundColor = "black";
+        document.querySelector("body").classList.add("dark");
+        document.querySelector("body").classList.remove("light");
     }
     else {
-        currMode = "dark";
-        document.querySelector("body").style.backgroundColor = "white";
+        currMode = "light";
+        //document.querySelector("body").style.backgroundColor = "white";
+        document.querySelector("body").classList.add("light");
+        document.querySelector("body").classList.remove("dark");
     }
-})
+    console.log(currMode);
+});
