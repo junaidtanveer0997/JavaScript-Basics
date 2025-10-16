@@ -91,4 +91,5 @@ modeBtn.addEventListener("click", () => {
         currMode = "dark";
         document.querySelector("body").style.backgroundColor = "white";
     }
+    console.log("currMode");
 })
