@@ -37,7 +37,6 @@ const getFacts = async () => {
 // json() method: returns a second promise that resolves with the result of parsing the response body test as JSON
 // (Input is JSON, output is JS object)
 
-
 // above task using Promise Chain
 function getFacts() {
     fetch(URL)
